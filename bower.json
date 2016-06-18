@@ -1,0 +1,16 @@
+{
+  "name": "SPA_ShowCase",
+  "homepage": "https://github.com/boyboi86/SPA_showCase",
+  "authors": [
+    "boyboi86 <boyboi86@gmail.com>"
+  ],
+  "description": "simple SPA for showcase",
+  "main": "index.htm",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "angular-bootstrap": "^1.3.3"
+  }
+}
