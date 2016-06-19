@@ -1,5 +1,3 @@
-var myApp = angular.module('myApp', ['ui.bootstrap', 'ngRoute']);
-
 //Routes
 myApp.config(function($routeProvider){
     
@@ -27,5 +25,4 @@ myApp.config(function($routeProvider){
     })
     
 });
-
 
