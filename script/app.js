@@ -42,7 +42,12 @@ myApp.controller('contactCtrl', ['$scope', function($scope){
 }]);
 
 myApp.controller('svcCtrl', ['$scope', function($scope){
-    
+    $scope.things= [{title:'Affordable',
+    content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel turpis tincidunt, tristique eros a, pulvinar turpis. Mauris viverra sodales risus, a rutrum felis gravida id. In vestibulum non purus et feugiat.'},
+                   {title:'Fast',
+    content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel turpis tincidunt, tristique eros a, pulvinar turpis. Mauris viverra sodales risus, a rutrum felis gravida id. In vestibulum non purus et feugiat.'},
+                   {title:'Quality',
+    content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel turpis tincidunt, tristique eros a, pulvinar turpis. Mauris viverra sodales risus, a rutrum felis gravida id. In vestibulum non purus et feugiat.'}];
     
     
 }]);
@@ -58,4 +63,19 @@ myApp.controller('CarouselCtrl', CarouselCtrl);
       {image:'assets/img/image05.jpg',text:'Image4'}];
   
     var slides = $scope.slides;
+
+     
 };
+// Directive
+
+myApp.directive('resDir', function(){
+    return {
+        restrict:'E',
+        templateUrl:"directives/template/resDir.html",
+        replace: false,
+        scope: {
+            myContent:'@',
+            myTitle:'@'
+        }
+    }
+})

@@ -35,23 +35,16 @@ a {
 /*service page CSS*/
 
 .first {
-    padding-top: 100px;
-}
-
-.each {
-    margin-top: 10px;
-}
-
-.service {
+    padding-top: 30px;
     font-size: 20px;
 }
+
 
 /*contact page CSS*/
 
 .jumbotron {
     width: 50%;
-    float:left;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .jumbotron  div {
@@ -67,6 +60,8 @@ a {
     font-size: 20px;
 }
 .address {
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
+
 
