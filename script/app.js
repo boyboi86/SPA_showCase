@@ -19,6 +19,13 @@ myApp.config(function($routeProvider){
         
     })
     
+    .when('/service',{
+        
+        templateUrl:'pages/service.htm',
+        controller:'svcCtrl'
+        
+    })
+    
 });
 
 // Controllers
@@ -29,6 +36,12 @@ myApp.controller('mainCtrl', ['$scope', function($scope){
 }]);
 
 myApp.controller('contactCtrl', ['$scope', function($scope){
+    
+    
+    
+}]);
+
+myApp.controller('svcCtrl', ['$scope', function($scope){
     
     
     

@@ -11,9 +11,62 @@
      
 }
 
+.container {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cookie', cursive;
+    
+}
 
+/*home page CSS*/
 
+.intro {
+    margin-top: 200px;
+    padding-right: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
 
+a {
+    font-size: 20px;
+    padding-left: 5px;
+}
 
+/*service page CSS*/
 
+.first {
+    padding-top: 100px;
+}
+
+.each {
+    margin-top: 10px;
+}
+
+.service {
+    font-size: 20px;
+}
+
+/*contact page CSS*/
+
+.jumbotron {
+    width: 50%;
+    float:left;
+    margin-top: 50px;
+}
+
+.jumbotron  div {
+    margin-top: 10px;
+    
+}
+
+.jumbotron input {
+    font-size: 20px;
+}
+
+.jumbotron button {
+    font-size: 20px;
+}
+.address {
+    margin-top: 50px;
+}
 
