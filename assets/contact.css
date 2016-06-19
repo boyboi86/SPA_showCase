@@ -1,0 +1,23 @@
+/*contact page CSS*/
+
+.jumbotron {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.jumbotron  div {
+    margin-top: 10px;
+    
+}
+
+.jumbotron input {
+    font-size: 20px;
+}
+
+.jumbotron button {
+    font-size: 20px;
+}
+.address {
+    margin-top: 20px;
+}
+
