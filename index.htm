@@ -23,14 +23,11 @@
         <script src="script/app.js"></script>
         <script src="script/controller.js"></script>
         <script src="script/route.js"></script>
-        <script src="directives/directive.js"></script>
-        
+        <script src="directives/directive.js"></script>      
     </head>
     <body>
-
         <!-- carousel-->
-        <div class="container-fluid" ng-controller="CarouselCtrl">
-                 
+        <div class="container-fluid" ng-controller="CarouselCtrl">       
         <div>
             <carousel interval="myInterval">
                 <slide ng-repeat="slide in slides" active="slide.active" index="$index">
@@ -43,15 +40,12 @@
             </carousel>
         </div>
     </div>
-         
         <!-- carousel-->
-
         
         <!--View-->
-
         <div class="container">
             <div ng-view></div>
 		</div>
-
+        <!--View-->
     </body>
 </html>
