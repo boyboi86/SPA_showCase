@@ -7,18 +7,20 @@
 
 <div class='jumbotron'>
     <h3>We Love to hear from you!</h3>
-<form role='form'>
+<form role='form' name='myForm'>
     <div>
         <input type='text' class="form-control" placeholder="What's your name?"/>
     </div>
     <div>
-        <input type="email" class="form-control" placeholder="email please?"/>
+        <input type="email" class="form-control" placeholder="email please?" name='myEmail' ng-model='text' required/>
+        <span ng-show="myForm.myEmail.$error.email">Something is wrong</span>
     </div>
     <div>
         <button type="button" class="btn btn-primary">Submit</button>
     </div>
     </form>
 </div>
-    <div>
-    <a href="#/">Back</a>
-    </div>
+    <footer>
+        <a href="#/">Home</a>
+        <a href="#/service">Service</a>
+    </footer>
